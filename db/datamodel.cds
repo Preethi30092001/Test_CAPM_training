@@ -23,7 +23,7 @@ context master {
     entity address {
         key NODE_KEY: common.Guid;
         CITY: String(44);
-        POSTAL_CODE: String(7);
+        POSTAL_CODE: String(10);
         STREET: String(44);
         BUILDING: String(127);
         COUNTRY: String(44) @title :'{i18n>COUNTRY}';
